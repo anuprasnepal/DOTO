@@ -173,3 +173,7 @@ body {
     font-size: 182px;
   }
 }
+
+.f a img {
+  border-radius: 50%;
+}
