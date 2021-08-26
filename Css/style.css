@@ -28,16 +28,6 @@ body {
 .form label {
   color: rgb(129, 95, 95);
 }
-.f image {
-  width: 50px;
-  background: url("/Images/f2.png") no-repeat;
-}
-.f :hover {
-  background: url("/Images/f1.png") no-repeat;
-}
-.f {
-  background: url("/Images/f2.png") no-repeat;
-}
 
 .nav {
   text-align: right;
@@ -174,6 +164,37 @@ body {
   }
 }
 
-.f a img {
-  border-radius: 50%;
+.f {
+  margin-left: 15%;
+}
+
+.textf {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+
+.fimg {
+  margin-left: 10%;
+  position: absolute;
+}
+
+.ftxt {
+  position: absolute;
+  margin-left: 11%;
+  font-size: 3ch;
+  color: black;
+  margin-top: 8%;
+}
+
+.ftxt a {
+  color: #030005;
+  text-decoration: none;
+}
+
+a :hover {
+  color: rgb(255, 0, 0);
+}
+
+.h {
+  margin-top: 100%;
 }
